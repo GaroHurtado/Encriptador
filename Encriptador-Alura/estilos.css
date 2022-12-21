@@ -1,0 +1,328 @@
+body {
+    background: url(imagenes/background/885542.png);
+    background-size:contain;
+    background-attachment:fixed;
+    opacity: 90%;
+}
+header{
+    margin-top: 0.5%;
+}
+header h1{
+    text-align: center;
+    margin-top: 20px;
+    font-size: 45px;
+    color:white;
+    opacity: 90%;
+    font-family: 'Planet Kosmos', sans-serif;                                                
+}
+
+main{
+    width: 940px;
+    position: relative;
+    margin: 0 auto;
+
+}
+
+
+.divMenu{
+    position: absolute;
+    width: 120px;
+    height: 450px;
+    background-color: white;
+    opacity: 80%;
+    border-radius:  10px;
+    border:2px #000000;
+    
+    
+}
+
+.iconMenu{
+    margin-left: 0px;
+    margin-top: 0px;
+    position: absolute;
+    background: white;
+    border-radius: 10px;
+    height: auto;
+    font-family: 'Fjalla One', sans-serif;
+    width: 120px;
+    font-size: 20px;
+    opacity: 65%;
+
+}
+
+.iconMenu:hover{
+    background-color: #1C8BD3;
+    opacity: 80%;
+}
+
+.listaPadre{
+    margin-top: 5px;
+    font-family: 'Fjalla One', sans-serif;
+    font-size: 20px;
+    text-align: center;
+    border: #000000;
+    
+}
+
+
+.botonCerrar{
+
+    margin-left: 100px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    font-size: 15px;
+    opacity: 100%;
+    font-family: 'Fjalla One', sans-serif;;
+
+}
+.titulo{
+   
+    font-family: 'Fjalla One', sans-serif;
+    font-size: 20px;
+    text-align: center;
+}
+.titulo2{
+   
+    font-family: 'Fjalla One', sans-serif;
+    font-size: 20px;
+    text-align: center;
+}
+
+.botonAlura{
+    
+    width: 100px;
+    margin-top: 20px;
+    margin-left: 10px;
+    margin-bottom: 50px;
+    padding: 10%;
+    border-radius: 10px;
+    opacity: 80%;
+    font-family: 'Fjalla One', sans-serif;
+    font-size: 20px;
+
+}
+.botonAlura:hover{
+    background-color: #1C8BD3;
+    opacity: 80%;
+}
+
+.botonAlura:active{
+    background-color: rgb(77, 140, 176);
+    opacity: 60%;
+}
+
+.botonBinario{
+    
+    width: 100px;
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-bottom: 60px;
+    padding: 10%;
+    border-radius: 10px;
+    opacity: 80%;
+    font-family: 'Fjalla One', sans-serif;
+    text-align: center;
+    font-size: 20px;
+
+}
+
+.botonBinario:hover{
+    background-color: #1C8BD3;
+    opacity: 80%;
+}
+
+.botonBinario:active{
+    background-color: rgb(77, 140, 176);
+    opacity: 60%;
+}
+
+.cheems{
+    
+    width: 100px;
+    margin-top: 40px;
+    margin-left: 10px;
+    margin-bottom: 50px;
+    padding: 10%;
+    border-radius: 10px;
+    opacity: 80%;
+    font-family: 'Fjalla One', sans-serif;
+    text-align: center;
+    font-size: 20px;
+
+}
+
+.cheems:hover{
+    background:url(imagenes/icons/cheems_compu-removebg-preview.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    opacity: 80%;
+}
+
+
+.entrada{
+    position: absolute;
+    margin-top:50px;
+    margin-left: 100px;
+    height: 400px;
+    width: 250px;
+    font-size: 25px;
+    text-align: center;
+    border:2px solid #000000;
+    border-radius: 10px;
+    opacity: 60%;
+    font-family: 'Fjalla One', sans-serif;
+    font-size: 30px;
+    text-align: center;
+}
+.entrada:hover{
+    background-color:#1C8BD3;
+    opacity: 70%;
+}
+.entrada:active{
+    background-color: rgb(77, 140, 176);
+    opacity: 60%;
+}
+
+.Encriptado{
+    margin-left: 100px;
+    position: absolute;
+    margin-top: 100px;
+    margin-left: 412px;
+    height: 50px;
+    width: 120px;
+    background: white;
+    border-radius: 10px;
+    opacity: 60%;
+    font-family: 'Fjalla One', sans-serif;
+    font-size: 25px;
+
+}
+.Encriptado:hover{
+    background-color: #1C8BD3;
+    opacity: 80%;
+
+}
+.Encriptado:active{
+    background-color: rgb(77, 140, 176);
+    opacity: 60%;
+}
+
+.alura{
+    margin-top: 210px;
+    margin-left: 442px;
+    position:relative;
+    height: 80px;
+    opacity: 95%;
+    
+}
+.Desencriptado{
+    
+    position: relative;
+    margin-top: 80px;
+    margin-left: 412px;
+    height: 50px;
+    width: 120px;
+    border-radius: 10px;
+    opacity: 60%;
+    font-family: 'Fjalla One', sans-serif;;
+    font-size: 20px;
+}
+
+.Desencriptado:hover{
+    background-color: #1C8BD3;
+    opacity: 80%;
+
+}
+.Desencriptado:active{
+    background-color: rgb(77, 140, 176);
+    opacity: 60%;
+}
+.salida{
+    position: absolute;
+    margin-top:50px;
+    margin-left: 589px;
+    height: 400px;
+    width: 250px;
+    font-size: 25px;
+    text-align: center;
+    border:2px solid #000000;
+    border-radius: 10px;
+    opacity: 60%;
+    font-family: 'Fjalla One', sans-serif;
+    text-align: center;
+    font-size: 30px;
+    background-color: white;
+}
+.muneco{
+    position: absolute;
+    opacity: 70%;
+    margin-top:120px;
+    margin-left: 565px;
+    height: 330px;
+    width: 330px;
+}
+.copiar{
+   
+    position: absolute;
+    margin-top: 135px;
+    margin-left:64px;
+    width: 246px;
+    border-radius: 10px;
+    opacity: 68%;
+    font-family: 'Fjalla One', sans-serif;;
+
+}
+
+.copiar:hover{
+    background-color: #1C8BD3;
+    opacity: 80%;
+
+}
+.copiar:active{
+    background-color: rgb(77, 140, 176);
+    opacity: 60%;
+}
+
+.foot{
+    background:url(imagenes/foot/papyrus.webp);   
+    background-attachment:scroll;
+    background-size: auto;
+    opacity: 95%;
+    margin-top: 10%;
+    
+}
+.imgFoot1{
+    margin-top: 1px;
+    margin-left: 20%;
+    width: 120px;
+
+}
+.Github{
+    font-size: 30px;
+    text-align: center;
+    font-family: 'Fjalla One', sans-serif;
+    margin-top: 20px;
+    position: absolute;
+    
+}
+.Github:active{
+    color: #1C8BD3;
+}
+.imgFoot2{
+    position: relative;
+    margin-bottom:9px;
+    width: 90px;
+    margin-left: 20%;
+    
+}
+.Linkedin{
+    font-size: 30px;
+    text-align: center;
+    font-family: 'Fjalla One', sans-serif;
+    margin-top: 20px;
+    position: absolute;
+}
+.Linkedin:active{
+    color: #1C8BD3;
+}

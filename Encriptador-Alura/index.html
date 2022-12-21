@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+
+<html lang = "es">
+    <head>
+        <meta charset="UTF-8">
+        <title>Encriptado Alura</title>
+        <link rel="stylesheet" href="reset.css">
+        <link rel="stylesheet" href="estilos.css">
+        <link href="https://fonts.cdnfonts.com/css/planet-kosmos" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Fjalla+One&display=swap" rel="stylesheet">
+                
+    </head>
+   
+    <body>
+        <header> 
+            <h1>Alura encriptador de texto</h1>
+ 
+        </header>
+
+        <button id="iconMenu" class="iconMenu"onclick="aparecerMenu()" style="display: initial;">
+            >Menu
+         </button>
+        <div id="mainMenu" class="divMenu" style="display:none;">
+         
+            <button id="inputCerrar" class="botonCerrar" onclick="desparecerMenu()">X</button>
+        
+            <p class="titulo">Encriptar con:</p>
+            <button id="inputAlura" class="botonAlura" type="button" onclick="valoresBotonAlura()">Alura</button>
+        
+            <button id="inputBinario" class="botonBinario"  type="button" onclick=valoresBotonBinario()>Binario</button>
+            <p class="titulo2">Proximamente</p>
+            <button class="cheems">Cheems</button>
+    
+        </div>
+        
+        <main> 
+           
+            <textarea id="entrada" class="entrada"onclick="borrarEntrada()">Inserta el texto a encriptar aquí!</textarea> 
+
+            <textarea  id = "salida" class="salida">No se ha encontrado ningun mensaje aun!</textarea>
+
+            <img id="muneco"class="muneco" src="imagenes/icons/cheems austronauta.png">
+
+            <button onclick="selectorEncriptado()"class="Encriptado">Encriptar!</button>
+
+            <img class="alura" src="imagenes/icons/Vector.png">
+
+            <button id="desen" class="Desencriptado" onclick="selectorDesencriptado()">Desencriptar!</button>
+
+            <button class="copiar" onclick="copy()">Copiar al portapapeles!</button>
+                       
+         
+        </main>
+       
+        <footer class="foot">
+            <img  class="imgFoot1" src="imagenes/icons/github_icon-removebg-preview.png">
+            <a class="Github" href="https://github.com/GaroHurtado">GaroHurtado</a>
+            <img  class="imgFoot2" src="imagenes/icons/linkein_logo-removebg-preview.png">
+            <a class="Linkedin" href="https://www.linkedin.com/in/ehurtadoitmi/">ehurtadoitmi</a>
+
+        <script src="main.js"></script>
+
+    </body>
+ 
+</html>
